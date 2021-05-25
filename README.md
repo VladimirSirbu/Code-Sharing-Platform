@@ -35,3 +35,5 @@ For accessing via API interface, open for example Postman and also type as URL `
 <img src="/images/api-latest-code.JPG">
 
 <hr>
+
+All codes are stored in h2 database. For accessing this you can use your browser with URL `http://localhost:8080/h2-console`
