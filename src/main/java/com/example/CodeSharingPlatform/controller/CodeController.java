@@ -20,7 +20,6 @@ public class CodeController {
         this.codeService = codeService;
     }
 
-
     @GetMapping("/new")
     public String addNewCodeAsHTML() {
         return "submitForm";
