@@ -1,0 +1,18 @@
+#code_snippet {
+	margin-left: 10px;
+	margin-top: 15px;
+	height: 10em;
+    width: 35em;
+
+    border: 2px solid black;
+    border-radius: 2px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #E4F0E6;
+}
+
+#send_snippet {
+	margin-top: 10px;
+	margin-left: 495px;
+}
