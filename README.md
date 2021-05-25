@@ -28,7 +28,7 @@ For accessing via API interface, open for example Postman and also type as URL `
 - `/api/code/codeId` : access posted code through it's id , `codeId` must be an integer number 
 - `/api/code/latest` : view last 10 posted piece of code from newest to oldest by posted time
 
-<img src="/images/api-new-code.JPG">
+<img src="/images/api-code-new.JPG">
 
 <img src="/images/api-get-code-by-id.JPG">
 
