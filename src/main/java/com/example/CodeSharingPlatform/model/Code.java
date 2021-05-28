@@ -18,12 +18,15 @@ public class Code {
     private LocalDateTime dateTime;
 
     public Code() {
-        this.dateTime = LocalDateTime.now().withNano(0);
     }
 
     public Code(String code) {
-        this();
         this.code = code;
+    }
+
+    @PrePersist
+    public void postedAt() {
+        dateTime = LocalDateTime.now().withNano(0);
     }
 
     public Long getId() {

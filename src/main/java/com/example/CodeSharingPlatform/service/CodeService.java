@@ -4,10 +4,7 @@ import com.example.CodeSharingPlatform.exception.CodeNotFoundException;
 import com.example.CodeSharingPlatform.model.Code;
 import com.example.CodeSharingPlatform.repository.CodeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;

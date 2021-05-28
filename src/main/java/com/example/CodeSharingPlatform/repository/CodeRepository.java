@@ -11,6 +11,4 @@ import java.util.Optional;
 public interface CodeRepository extends JpaRepository<Code, Long> {
 
     Optional<Code> findCodeById(Long id);
-
-
 }
